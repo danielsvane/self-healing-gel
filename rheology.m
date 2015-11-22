@@ -1,9 +1,9 @@
 function rheology()
-    handleData('nano_test.xls', 'Fe 9.07', 'good_fe_907.eps');
-    handleData('nano_test.xls', 'Fe 10.69', 'good_fe_1069.eps');
-    handleData('rheology.xls', 'Fe 9.63', 'bad_fe_963.eps');
-    handleData('rheology.xls', 'Fe 8.52', 'bad_fe_852.eps');
-    handleData('rheology.xls', 'Al 9.39', 'bad_al_939.eps');
+    handleData('data/nano_test.xls', 'Fe 9.07', 'good_fe_907.eps');
+    handleData('data/nano_test.xls', 'Fe 10.69', 'good_fe_1069.eps');
+    handleData('data/rheology.xls', 'Fe 9.63', 'bad_fe_963.eps');
+    handleData('data/rheology.xls', 'Fe 8.52', 'bad_fe_852.eps');
+    handleData('data/rheology.xls', 'Al 9.39', 'bad_al_939.eps');
 end
 
 function handleData( file, sheet, name )
