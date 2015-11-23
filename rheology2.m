@@ -40,7 +40,7 @@ function handleData( file, sheets, name )
         ylim([0 1400]);
         xlim([min(time) max(time)]);
         xlabel('Time [s]')
-        set(gca,'YTickLabel',[]);
+        set(gca,'yticklabel',[],'ycolor',[0.7 0.7 0.7]);
     end
     
     legend(gca,'show');
